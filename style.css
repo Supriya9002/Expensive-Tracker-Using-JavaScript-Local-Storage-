@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:  flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    color: blueviolet;
+    font-size: 2.2rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(249, 247, 247);
+    margin-top: 2rem;
+    height: auto;
+    width: 40%;
+    align-items: center;
+    position: relative;
+    left: 28rem;
+    border: 1px solid rgb(111, 109, 109);
+    border-radius: 6px;
+    gap: 1.2rem;
+}
+h2{
+    color: rgb(52, 7, 98);
+    font-weight: 500;
+    background-color: rgb(232, 232, 234);
+    border: 1px solid rgb(201, 201, 201);
+    font-size: 2;
+    border-radius: 5px;
+    padding: .5rem;
+}
+.m{
+    margin-top: 1rem;
+}
+.expan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: .4rem;
+
+}
+label{
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: rgb(56, 55, 55);
+}
+input{
+    width: 6rem;
+    height: 1.9rem;
+    font-size: 1rem;
+    /* border-radius: 7px; */
+    overflow: hidden;
+}
+select{
+    width: 6rem;
+    height: 1.9rem;
+    /* border-radius: 1rem; */
+    font-size: 1rem;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+li{
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: rgb(56, 55, 55);
+}
+button{
+    height: 1.9rem;
+    margin-top: .5rem;
+    width: 8rem;
+    border: 2px solid rgb(106, 106, 106);
+    border-radius: 7px;
+    overflow: hidden;
+    font-size: 1rem;
+    overflow: hidden;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: rgb(200, 0, 0);
+    color: whitesmoke;
+}
+#expense-list{
+    margin-bottom: 1rem;
+}
+#d{
+    margin-top: 2.5rem;
+}

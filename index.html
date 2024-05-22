@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+
+    <main>
+        <h2 class="m">Add Expense</h2>
+        
+        <div class="expan">
+            <div>
+                <label for="expense-amount">Choose expense amount:</label>
+                <input type="number" id="expense-amount" name="expense-amount">
+            </div>
+            <div>
+                <label for="expense-description">Choose description:</label>
+                <select id="expense-description" name="expense-description">
+                    <option value="Petrol">Petrol</option>
+                    <option value="movie">Movie</option>
+                    <option value="food">Food</option>
+                    <option value="groceries">Groceries</option>
+                    <option value="utilities">Utilities</option>
+                    <option value="rent">Rent</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="dining-out">Dining Out</option>
+                    <option value="public-transport">Public Transport</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="medical">Medical</option>
+                    <option value="insurance">Insurance</option>
+                    <option value="education">Education</option>
+                    <option value="gym-membership">Gym Membership</option>
+                    <option value="internet">Internet</option>
+                    <option value="phone-bill">Phone Bill</option>
+                    <option value="household-items">Household Items</option>
+                    <option value="gifts">Gifts</option>
+                    <option value="charity">Charity</option>
+                    <option value="subscriptions">Subscriptions</option>
+                </select>
+            </div>
+            <div>
+                <label for="expense-category" class="fnt">Choose a category:</label>
+                <select id="expense-category" name="expense-category">
+                    <option value="fuel">Fuel</option>
+                    <option value="electricity">Electricity</option>
+                    <option value="vacation">On vacation</option>
+                    <option value="housing">Housing</option>
+                    <option value="food-dining">Food & Dining</option>
+                    <option value="transportation">Transportation</option>
+                    <option value="health-fitness">Health & Fitness</option>
+                    <option value="insurance">Insurance</option>
+                    <option value="education">Education</option>
+                    <option value="entertainment">Entertainment</option>
+                    <option value="personal-care">Personal Care</option>
+                    <option value="utilities">Utilities</option>
+                    <option value="groceries">Groceries</option>
+                    <option value="clothing-accessories">Clothing & Accessories</option>
+                    <option value="communication">Communication</option>
+                    <option value="miscellaneous">Miscellaneous</option>
+                    <option value="savings">Savings</option>
+                    <option value="investments">Investments</option>
+                    <option value="gifts-donations">Gifts & Donations</option>
+                    <option value="subscriptions-memberships">Subscriptions & Memberships</option>
+                </select>
+            </div>
+            <button id="add">Add Expense</button>
+        </div>
+    
+        <h2 id="d">Expense List</h2>
+        <div id="expense-list">
+            <ul id="list">
+                <!-- <li>100 - Movie - On vacation <button class="edit-btn" onclick="editExpense(${i})">Edit Expense</button> <button class="delete-btn">Delete Expense</button></li>
+                <li>100 - Movie - On vacation <button class="edit-btn" onclick="editExpense(${i})">Edit Expense</button> <button class="delete-btn" onclick="deleteExpense(${i})">Delete Expense</button></li>
+                <li>100 - Movie - On vacation <button class="edit-btn">Edit Expense</button> <button class="delete-btn">Delete Expense</button></li> -->
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
